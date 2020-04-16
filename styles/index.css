@@ -1,0 +1,51 @@
+@font-face {
+    font-family: MajorMono;
+    src: url("fonts/MajorMonoDisplay-Regular.ttf");
+}
+
+body {
+    padding: 2em;
+}
+
+h1, h2 {
+    font-family: MajorMono;
+    margin-bottom: 1em;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+}
+
+ul {
+    margin: 2em auto 2em auto;
+    border-top: 1.5px solid black;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+  
+
+a:hover {
+    text-decoration: line-through;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: right;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:visited {
+    color: black;
+}
