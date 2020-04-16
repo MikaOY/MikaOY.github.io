@@ -7,7 +7,7 @@ body {
     padding: 2em;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: MajorMono;
     margin-bottom: 1em;
 }
@@ -19,12 +19,12 @@ p {
 
 ul {
     margin: 2em auto 2em auto;
-    border-top: 1.5px solid black;
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:visited {
@@ -48,4 +48,26 @@ footer a {
 
 footer a:visited {
     color: black;
+}
+
+@media (max-width: 768px){
+    h1 {
+        font-size: 7em;
+    }
+
+    h2 {
+        font-size: 5em;
+    }
+
+    h3 {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 3em;
+    }
+
+    footer {
+        font-size: 2em;
+    }
 }
