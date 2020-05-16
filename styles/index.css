@@ -22,9 +22,14 @@ ul {
     list-style-type: none;
 }
 
+.link {
+    margin: 0.75em auto 0.75em auto;
+}
+
 a {
     text-decoration: none;
     color: black;
+    display:inline-block;
 }
 
 a:visited {
